@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "scooter-project-coach-tests": "./bin/scooter-project-coach-tests.js"
+  },
   "keywords": [],
   "author": "Kat Law",
   "license": "ISC"
