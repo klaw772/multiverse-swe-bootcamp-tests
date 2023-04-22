@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const fs = require('fs');
-console.log('hello');
+console.log(__dirname);
 
 // destination will be created or overwritten by default.
 fs.cp('../scooter-project-coach-tests', '../..', { recursive: true }, (err) => {
