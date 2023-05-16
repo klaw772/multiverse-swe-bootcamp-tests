@@ -1,6 +1,6 @@
 const { describe, it, expect, beforeAll, afterAll } = require('@jest/globals')
-const { User, Deck } = require('server/src/models')
-const { db } = require('server/src/db/config')
+const { User, Deck } = require('../')
+const { db } = require('../../db/config')
 
 // define in global scope
 let user;
